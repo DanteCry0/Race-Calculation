@@ -1,0 +1,6 @@
+<script type= text/javascript">
+// 2 +km * 1,4 + min * 0,26
+km = prompt ('Informe o total de km percorridos')
+min = prompt ('Informe o tempo total em minutos da corrida')
+document.write ('O total da sua corrida foi: R$' + (2 + (km*1.4) + (min*0.26)).toFixed (2))
+// .toFixed (2) = colocar casas decimais
